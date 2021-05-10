@@ -5,18 +5,41 @@ No matter whether you are new to Linux or an experienced user,
 having a list of common commands close at hand is helpful.
 
 - List files in the directory:
-    `ls`
+
+    ``` 
+    ls
+    ```
 - List all files (shows hidden files):
-    ` ls -a `
+    
+    ``` 
+    ls -a
+    
 - Show directory you are currently working in:
-    `pwd`
+    
+    ``` 
+    pwd 
+    
 - Create a new directory:
-    `mkdir directory`
+   
+   ```
+   mkdir directory
+   
 - Remove a directory recursively:
-    `rm file_name`
+   
+   ```
+   rm file_name
+   
 - It deletes the directory:
-    `rm -rf directory_name`
+   
+   ```
+   rm -rf directory_name
+   
 - Recursively copy the contents of one file to a second file:
-    `cp file_name1 file_name2`
+   
+   ```
+   cp file_name1 file_name2
+   
 - Create a new file:
-    `touch file_name`   
+   
+   ```
+   touch file_name
