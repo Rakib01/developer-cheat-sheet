@@ -41,3 +41,35 @@ having a list of common commands close at hand is helpful.
     ```
     Ping hostname="" or =""
     ```
+- Display files in the current directory of a remote computer:
+    ```
+    dir
+    ```
+- change directory to "dirname" on a remote computer:
+    ```
+    cd "dirname"
+    ```
+- 
+
+### User management commands of linux
+
+- To display value of a variable:
+    ```
+    sudo adduser username	
+    ```
+- Displays all environment variables:
+    ```
+    sudo passwd -l 'username'
+    ```
+- Create a new variable:
+    ```
+    sudo userdel -r 'username'	
+    ```
+- Remove a variable:
+    ```
+    sudo usermod -a -G GROUPNAME USERNAME
+    ```
+- To set value of an environment variable:
+    ```
+    sudo deluser USER GROUPNAME
+    ```
